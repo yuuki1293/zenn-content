@@ -29,6 +29,7 @@ Intellij IDEA Ultimate 2022.2.3
 1. [Forge公式サイト](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.18.2.html)から`Mdk`をクリックしてダウンロードしたのち、zipファイルを展開します。
 2. IDEAを起動し、`Open`から`1`で展開したフォルダーを開きます。
 3. Java17をインストールしていないまたは別のバージョンのJavaをインストールしている場合、`File->Project Structure`から`SDK`を`17`に変更します。
+4. IDEAの`gradle`タブから`Tasks/forgegradle runs/genIntellijRuns`をダブルクリックします。（gradle importが終わるまで出てこないので気長に待ちましょう）
 
 ## ファイル変更
 ### build.gradle
