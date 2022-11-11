@@ -29,4 +29,31 @@ Intellij IDEA Ultimate 2022.2.3
 2. IDEAを起動し、`Open`から`1.`で展開したフォルダーを開きます。
 3. Java17をインストールしていないまたは別のバージョンのJavaをインストールしている場合、`File->Project Structure`から`SDK`を`17`に変更します。
 
-## 2. 
+## 2. ファイル変更
+### build.gradle
+まず以下を追加します。  
+```gradle
+apply plugin: 'scala'
+```
+次に`repositories`の中に以下を追加します。  
+```gradle
+maven {
+    name = "Azure-SLP"
+    url = uri("https://pkgs.dev.azure.com/Kotori316/minecraft/_packaging/mods/maven/v1")
+    content {
+        it.includeModule("com.kotori316", "ScalableCatsForce".toLowerCase())
+        it.includeModule("org.typelevel", "cats-core_${scala_major}")
+        it.includeModule("org.typelevel", "cats-kernel_${scala_major}")
+    }
+}
+```
+最後に`dependencies`の中に以下を追加します。  
+```gradle
+implementation(group: 'org.scala-lang', name: 'scala-library', version: scala_version)
+implementation(group: 'org.typelevel', name: "cats-core_${scala_major}", version: '2.8.5-kotori')
+
+runtimeOnly(group: "com.kotori316", name: "ScalableCatsForce".toLowerCase(), version: "2.13.8-build-4", classifier: "with-library") {
+    transitive(false)
+}
+```
+### gradle.properties
