@@ -1,6 +1,6 @@
 ---
 title: "Forge1.18.2のmodをScalaで開発する"
-emoji: "🎃"
+emoji: "☕️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["scala", "minecraft", "forge"]
 published: false
