@@ -71,7 +71,7 @@ loaderVersion="[2.13.3,2.14.0)"
 ```
 ## ソースコード
 1. `src/main/java`を`src/main/scala`に名前変更します。
-2. ソースコードはすべて`src/main/scala/com/example/examplemod/`に追加します。
+2. ソースコードはすべて`src/main/scala/com/example/examplemod/`以下に追加します。
 3. `ExampleMod.java`を削除します。
 4. `examplemod`フォルダーを右クリック→`New`→`Scala Class`から`ExampleMod`という名前でファイルを作成します。
 5. `ExampleMod.scala`の内容を以下に書き換えます。
