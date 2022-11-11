@@ -12,12 +12,15 @@ published: false
 - forgeでmodの開発がしたい
 
 # 環境
-Windows 11
-Minecraft 1.18.2
-Forge 1.18.2-40.1.0
-Java 17.0.1
-Scala 2.13.8
-gradle 7.4
-Intellij IDEA Ultimate 2022.2.3
+Windows 11 
+Minecraft 1.18.2  
+Forge 1.18.2-40.1.0  
+Java 17.0.1  
+Scala 2.13.8  
+gradle 7.4  
+Intellij IDEA Ultimate 2022.2.3  
 
 # セットアップ
+エディターはIDEAを使用します。  
+[結果だけ見たい人用](https://github.com/yuuki1293/forge1.18.2-scala)  
+
