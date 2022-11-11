@@ -26,7 +26,7 @@ Intellij IDEA Ultimate 2022.2.3
 [結果だけ見たい人用](https://github.com/yuuki1293/forge1.18.2-scala)  
 
 ## javaとの共通部
-1. [ここ](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.18.2.html)から`Mdk`をクリックしてダウンロードしたのち、zipファイルを展開します。
+1. [Forge公式サイト](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.18.2.html)から`Mdk`をクリックしてダウンロードしたのち、zipファイルを展開します。
 2. IDEAを起動し、`Open`から`1.`で展開したフォルダーを開きます。
 3. Java17をインストールしていないまたは別のバージョンのJavaをインストールしている場合、`File->Project Structure`から`SDK`を`17`に変更します。
 
