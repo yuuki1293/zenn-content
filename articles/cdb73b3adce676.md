@@ -22,7 +22,7 @@ gradle 7.4
 Intellij IDEA Ultimate 2022.2.3  
 
 # セットアップ
-エディターはIntellij IDEA（以下IDEA）を使用します。  
+エディターはIntellij IDEA（以下IDEA）を使用します。言語は英語として進めるので日本語にローカライズした場合は適宜読み替えてください。  
 [結果だけ見たい人用](https://github.com/yuuki1293/forge1.18.2-scala)  
 
 ## javaとの共通部
