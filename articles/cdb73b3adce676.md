@@ -62,3 +62,9 @@ runtimeOnly(group: "com.kotori316", name: "ScalableCatsForce".toLowerCase(), ver
 scala_version=2.13.10
 scala_major=2.13
 ```
+### src/main/resource/META-INF/mods.toml
+`modLoader`, `loaderVersion`をそれぞれ以下のように書き換えます。
+```toml
+modLoader="kotori_scala"
+loaderVersion="[2.13.3,2.14.0)"
+```
