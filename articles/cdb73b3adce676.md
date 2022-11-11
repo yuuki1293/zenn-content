@@ -150,4 +150,6 @@ IDEAの`gradle`タブから`Tasks/forgegradle runs/runClient`をダブルクリ�
 jarファイルは`build/libs`に生成されます。
 
 # 注意点
-ユーザーは前提modに[Scalable Cat's Force](https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force)が必要となります。
+* ユーザーは前提modに[Scalable Cat's Force](https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force)が必要となります。
+* javaのコードで`Mod.EventBusSubscriber`を使用すると例外が発生します。
+* Scala3はサポートされていません。
