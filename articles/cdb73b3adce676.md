@@ -7,6 +7,10 @@ published: false
 ---
 1.16.5で開発していたmodを1.18.2にアップデートしたら動かなくなったのを動くようにした話です。
 
+# 対象読者
+- Scalaが書ける/書きたい
+- forgeでmodの開発がしたい
+
 # 環境
 Windows 11
 Minecraft 1.18.2
@@ -16,3 +20,4 @@ Scala 2.13.8
 gradle 7.4
 Intellij IDEA Ultimate 2022.2.3
 
+# セットアップ
