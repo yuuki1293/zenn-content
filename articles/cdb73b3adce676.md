@@ -148,3 +148,6 @@ class ExampleMod() { // Register the setup method for modloading
 IDEAの`gradle`タブから`Tasks/forgegradle runs/runClient`をダブルクリックするか、ターミナルから`gradlew runClient`とすると`Minecraft`が起動します。起動後`Mods`に`Example Mod`があれば成功です。  
 ![成功した画像](https://user-images.githubusercontent.com/71992891/201347389-fae24659-7b07-461c-8a80-32ae1cde7aa3.png)
 jarファイルは`build/libs`に生成されます。
+
+# 注意点
+ユーザーは前提modに[Scalable Cat's Force](https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force)が必要となります。
