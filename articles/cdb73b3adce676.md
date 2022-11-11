@@ -3,7 +3,7 @@ title: "Forge1.18.2のmodをScalaで開発する"
 emoji: "☕️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["scala", "minecraft", "forge"]
-published: false
+published: true
 ---
 1.16.5でScalaを使用して開発していたmodを1.18.2にアップデートしたら動かなくなったのを動くようにした話です。  
 [Scalable Cat's Force](https://github.com/Kotori316/SLP)を使用します。  
