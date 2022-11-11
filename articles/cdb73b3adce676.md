@@ -6,7 +6,7 @@ topics: ["scala", "minecraft", "forge"]
 published: false
 ---
 1.16.5で開発していたmodを1.18.2にアップデートしたら動かなくなったのを動くようにした話です。  
-(Scalable Cat's Force)[https://github.com/Kotori316/SLP]を使用します。  
+[Scalable Cat's Force](https://github.com/Kotori316/SLP)を使用します。  
 
 # 対象読者
 - Scalaが書ける/書きたい
