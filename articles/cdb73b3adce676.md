@@ -11,5 +11,6 @@ published: false
 Windows 11
 Minecraft 1.18.2
 Forge 1.18.2-40.1.0
+Java 17.0.1
 Scala 2.13.8
 Intellij IDEA Ultimate 2022.2.3
