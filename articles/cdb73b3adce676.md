@@ -142,3 +142,6 @@ class ExampleMod() { // Register the setup method for modloading
   }
 }
 ```
+
+## 検証
+IDEAの`gradle`タブから`Tasks/forgegradle runs/runClient`をダブルクリックするか、ターミナルから`gradlew runClient`とすると`Minecraft`が起動します。起動後`Mods`に`Example Mod`があれば成功です。
