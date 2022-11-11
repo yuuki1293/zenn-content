@@ -57,3 +57,8 @@ runtimeOnly(group: "com.kotori316", name: "ScalableCatsForce".toLowerCase(), ver
 }
 ```
 ### gradle.properties
+以下を追記します。  
+```properties
+scala_version=2.13.10
+scala_major=2.13
+```
