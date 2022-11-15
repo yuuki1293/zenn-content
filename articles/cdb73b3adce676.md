@@ -3,10 +3,10 @@ title: "Forge1.18.2のmodをScalaで開発する"
 emoji: "☕️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["scala", "minecraft", "forge"]
-published: false
+published: true
 ---
-1.16.5で開発していたmodを1.18.2にアップデートしたら動かなくなったのを動くようにした話です。  
-(Scalable Cat's Force)[https://github.com/Kotori316/SLP]を使用します。  
+1.16.5でScalaを使用して開発していたmodを1.18.2にアップデートしたら動かなくなったのを動くようにした話です。  
+[Scalable Cat's Force](https://github.com/Kotori316/SLP)を使用します。  
 
 # 対象読者
 - Scalaが書ける/書きたい
@@ -22,13 +22,14 @@ gradle 7.4
 Intellij IDEA Ultimate 2022.2.3  
 
 # セットアップ
-エディターはIntellij IDEA（以下IDEA）を使用します。  
+エディターはIntellij IDEA（以下IDEA）を使用します。言語は英語として進めるので日本語にローカライズした場合は適宜読み替えてください。  
 [結果だけ見たい人用](https://github.com/yuuki1293/forge1.18.2-scala)  
 
 ## javaとの共通部
-1. [ここ](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.18.2.html)から`Mdk`をクリックしてダウンロードしたのち、zipファイルを展開します。
-2. IDEAを起動し、`Open`から`1.`で展開したフォルダーを開きます。
+1. [Forge公式サイト](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.18.2.html)から`Mdk`をクリックしてダウンロードしたのち、zipファイルを展開します。
+2. IDEAを起動し、`Open`から`1`で展開したフォルダーを開きます。
 3. Java17をインストールしていないまたは別のバージョンのJavaをインストールしている場合、`File->Project Structure`から`SDK`を`17`に変更します。
+4. IDEAの`gradle`タブから`Tasks/forgegradle runs/genIntellijRuns`をダブルクリックします。（gradle importが終わるまで出てこないので気長に待ちましょう）
 
 ## ファイル変更
 ### build.gradle
@@ -71,7 +72,7 @@ loaderVersion="[2.13.3,2.14.0)"
 ```
 ## ソースコード
 1. `src/main/java`を`src/main/scala`に名前変更します。
-2. ソースコードはすべて`src/main/scala/com/example/examplemod/`に追加します。
+2. ソースコードはすべて`src/main/scala/com/example/examplemod/`以下に追加します。
 3. `ExampleMod.java`を削除します。
 4. `examplemod`フォルダーを右クリック→`New`→`Scala Class`から`ExampleMod`という名前でファイルを作成します。
 5. `ExampleMod.scala`の内容を以下に書き換えます。
