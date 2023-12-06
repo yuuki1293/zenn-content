@@ -1,0 +1,14 @@
+{
+	"name": "Zenn",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens"
+			]
+		}
+	}
+}
