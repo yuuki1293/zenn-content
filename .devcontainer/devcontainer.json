@@ -1,8 +1,6 @@
 {
 	"name": "Zenn",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	"image": "mcr.microsoft.com/devcontainers/javascript-node",
 	"remoteUser": "node",
 	"customizations": {
 		"vscode": {
