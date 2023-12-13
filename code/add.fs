@@ -10,3 +10,8 @@ module Add =
     add_2 (1, 2) |> printfn "%d"
     add_3 (1, 2) |> printfn "%d"
     add_4 (1, 2) |> printfn "%d"
+
+type AddClass =
+    static member add (a: int, b: int): int = a + b
+    static member add ((a, b): int * int): int = a + b
+    static member add ((a, b): struct (int * int)): int = a + b
